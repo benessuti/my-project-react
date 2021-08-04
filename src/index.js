@@ -1,11 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App.jsx';
+import reportWebVitals from './reportWebVitals';
+import User from './pages/App';
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    Lista de Usuários
+     
+    <User />
+     
+
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
