@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import User from './pages/App';
+import UserList from './pages/App';
 
 
 
@@ -10,7 +10,7 @@ import User from './pages/App';
 ReactDOM.render(
   <React.StrictMode>
      
-    <User />
+    <UserList/>
      
 
     

@@ -1,4 +1,4 @@
-import './UserList.css'
+import './App.css'
 import { useEffect, useState } from 'react'
 import axios from "axios"
 import NumberFormat from 'react-number-format';
@@ -124,11 +124,11 @@ function UserList(){
 }
 
 // Exportando o component Users
-export default User;
-/* import './App.css'
+export default UserList;
+/* import './UserList.css'
 import { useEffect, useState } from 'react'
 import axios from "axios"
-function User() {
+function UserList() {
     // Função GET que está trazendo os dados da API
     // useEffect, necessário para que o get execute apenas uma única vez
     let [tarefas, setTarefas] = useState([])
@@ -159,4 +159,4 @@ function User() {
     );
 }
 // Exportando o component Users
-export default User;*/
+export default UserList;*/
